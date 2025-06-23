@@ -4,8 +4,8 @@ import Practice from "./Practice";
 const App = () => {
   return (
     <>
-      {/* <Practice /> */}
-      <Profile />
+      <Practice />
+      
     </>
   );
 };

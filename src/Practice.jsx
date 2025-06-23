@@ -3,7 +3,7 @@ import SeriesCard from "./components/SeriesCard";
 
 export const Practice = () => {
   return (
-    <ul className="container text-white bg-black  mx-auto text-center justify-center border-2 ">
+    <ul className=" grid grid-cols-2  px-2 py-10 mx-50 text-center gap-2 font-serif rounded-lg  ">
       {sData.map((c) => {
         return <SeriesCard key={c.id} ele={c} />;
       })}
